@@ -44,7 +44,7 @@
 #endif // WAKE_HOOKS_DEFINED
 
 #ifdef CONFIG_PSENSOR_ONDEMAND_STATE
-#include <linux/ltr559.h>
+#include <linux/input/ltr559.h>
 extern int ltr559_ps_ondemand_state (void);
 #endif
 

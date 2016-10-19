@@ -580,11 +580,15 @@ int ltr559_ps_ondemand_state (void)
 	    ltr559_data, ps_cdev);
     struct i2c_client *client = data->client;
     int contr_data;
-
     u32	ondemand_ps_state = 0;
     u32 psdata = 0;
     int proximity_state = LTR559_ON_DEMAND_RESET;
     int ret = 0;
+#ifdef CONFIG_MACH_WT88047
+	ktime_t	timestamp;
+
+	timestamp = ktime_get_boottime();
+#endif
 
 
     // Enable the Sensor
