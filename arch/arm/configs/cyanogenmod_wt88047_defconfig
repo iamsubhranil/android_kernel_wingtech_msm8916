@@ -36,11 +36,7 @@ CONFIG_BUILDTIME_EXTABLE_SORT=y
 #
 CONFIG_INIT_ENV_ARG_LIMIT=32
 CONFIG_CROSS_COMPILE=""
-<<<<<<< HEAD:arch/arm/configs/cyanogenmod_wt88047_defconfig
-CONFIG_LOCALVERSION="-LateAutumn"
-=======
-CONFIG_LOCALVERSION="-Jerrica-NG-PremierFinale"
->>>>>>> db5a25d... update defconfig for N:arch/arm/configs/wt88047_kernel_defconfig
+CONFIG_LOCALVERSION="-LateAutumn-Fall-"
 CONFIG_LOCALVERSION_AUTO=y
 CONFIG_HAVE_KERNEL_GZIP=y
 CONFIG_HAVE_KERNEL_LZMA=y
@@ -3416,16 +3412,12 @@ CONFIG_MSDOS_FS=y
 CONFIG_VFAT_FS=y
 CONFIG_FAT_DEFAULT_CODEPAGE=437
 CONFIG_FAT_DEFAULT_IOCHARSET="iso8859-1"
-<<<<<<< HEAD:arch/arm/configs/cyanogenmod_wt88047_defconfig
-# CONFIG_NTFS_FS is not set
-=======
 CONFIG_NTFS_FS=y
 # CONFIG_NTFS_DEBUG is not set
 CONFIG_NTFS_RW=y
 CONFIG_EXFAT_FS=y
 CONFIG_EXFAT_DEFAULT_CODEPAGE=437
 CONFIG_EXFAT_DEFAULT_IOCHARSET="utf8"
->>>>>>> db5a25d... update defconfig for N:arch/arm/configs/wt88047_kernel_defconfig
 
 #
 # Pseudo filesystems
