@@ -1,4 +1,4 @@
-ROOT_DIR=/mnt/e/wt88047
+ROOT_DIR="$(dirname "$(pwd)")"
 ANYKERNEL_DIR=$ROOT_DIR/AnyKernel2_Pack
 BINARY_DIR=$ROOT_DIR/android_kernel_wingtech_msm8916/arch/arm/boot
 ZIMAGE=$BINARY_DIR/zImage
